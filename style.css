@@ -259,3 +259,14 @@ hr {
     margin: 10px;
     
 }
+.match_container_up{
+    display:inline-block;
+}
+.match_left_div_up{
+    display: flex;
+}
+.match_right_div_up{
+    display: grid;
+    grid-template-columns:repeat(3, 200px);
+    grid-gap: 30px;
+}
