@@ -93,7 +93,7 @@ a {
 }
 
 .match_container {
-    width: 90%;
+    width: 90%; 
     display: grid;
     grid-template-columns: 20% 80%;
     grid-gap: 20px;
