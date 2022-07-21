@@ -1,0 +1,259 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family:sans-serif; 
+}
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Banner section Start  */
+.banner_container {
+    background-color: black;
+    width: 85%;
+    height: 678px;
+    border-radius: 37px;
+    color: white;
+}
+
+
+
+#banner_left {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.watch_live_button {
+    background: red;
+    color: white;
+    font-size: 25px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.banner {
+    display: flex;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.half_div {
+    width: 100%;
+}
+
+.banner_image {
+    height: 550px;
+    margin-top: 70px;
+}
+
+.banner_image:hover {
+    transform: scale(1.2);
+    transition: transform ease-in 0.01;
+}
+
+/* Banner section End  */
+.match_button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.match_left_div {
+    padding: 5px;
+}
+
+.country {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#blog_match {
+    background: red;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.match_container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 30px;
+    padding: 10px;
+}
+
+.time_comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.match_box {
+    border-radius: 10px;
+    box-shadow: 5px 6px 6px #888888;
+}
+
+.match_box_text {
+    padding: 20px;
+}
+
+.match_box_image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.match_right_div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.view_all_btn {
+    background: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: none;
+}
+
+/* footer section*/
+
+.footer {
+    background-color: #161616;
+    width: 100%;
+    color: white;
+}
+
+hr {
+    width: 80%;
+    color: white;
+}
+
+.big_footer {
+    padding: 40px 0px;
+    font-size: 3em;
+}
+
+.small_footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 40px;
+}
+
+/* Media Queries */
+
+/* Mobile Screen  */
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+    }
+
+    .banner_container {
+        height: 1000px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .banner {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_image {
+        height: 400px;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .match_container {
+        display: block;
+    }
+
+    .match_left_div {
+        text-align: center;
+
+    }
+
+    .match_right_div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .small_footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+
+    }
+
+}
+
+
+
+/* Tab Scrren 
+ */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+    }
+
+    .match_container {
+        display: block;
+    }
+
+    .match_left_div {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .match_right_div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .small_footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+    }
+
+    .view_all_btn {
+
+        display: block;
+    }
+
+}
+
+/*------ social-------*/
+
+.social{
+    font-size: 45px;
+    margin: 10px;
+    
+}
